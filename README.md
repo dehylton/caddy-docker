@@ -2,6 +2,7 @@
 
 Alpine-based caddy image. Currently includes docker, http.ipfilter, http.realip, and tls.dns.dnsmadeeasy plugins and uses the personal license.
 
+* Pulls latest caddy version during image build
 * Serves from */caddydir/* by default
 * Sources */precmd* before executing caddy
 
