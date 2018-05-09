@@ -1,3 +1,3 @@
-# docker-opensmtpd
-docker run -it --rm -v `pwd`/test.sh:/cmdline.sh mycaddy:0.1 caddy -version
-# caddy-docker
+# caddy
+
+Alpine-based caddy image. Currently includes docker, http.ipfilter, http.realip, and tls.dns.dnsmadeeasy plugins and uses the personal license.
